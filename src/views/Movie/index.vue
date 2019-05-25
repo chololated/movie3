@@ -33,7 +33,10 @@ export default {
 }
 </script>
 <style scoped>
-#content .movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;}
+.main{
+  position:relative;
+}
+#content .movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;position:fixed;top:50px;}
 .movie_menu .city_name{ margin-left: 20px; height:100%; line-height: 45px;}
 
 .movie_menu .hot_swtich{ display: flex; height:100%; line-height: 45px;}
